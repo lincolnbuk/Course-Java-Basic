@@ -6,10 +6,11 @@ public class VariaveisChar {
         //char i = 'i';
         char o = 111;
         char i = 105;
+        char interrogacao = '?'; // Valor '?'
 
-        //Para comentar uma linha de código, clicar: Ctrl/
+        // Para comentar uma linha de código, clicar: Ctrl/
 
-        //System.out.println(o+i); //Imprime um valor numerico
-        System.out.println(""+o+i); //Transforma para char e imprime oi
+        //System.out.println(o+i); // Imprime um valor numerico
+        System.out.println("" + o + i + interrogacao); // Transforma para char e imprime oi
     }
 }
