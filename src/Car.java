@@ -2,6 +2,7 @@ public class Car {
 
     private String marca;
     private String modelo;
+    private int ano;
     private int numPassageiros;
     private double capCombustivel;
     private double consumoCombustivel;
@@ -22,6 +23,13 @@ public class Car {
         this.modelo = modelo;
     }
 
+    public int getAno(){
+        return this.ano;
+    }
+
+    public void setAno(int ano){
+        this.ano = ano;
+    }
     public int getNumPassageiros(){
         return this.numPassageiros;
     }
