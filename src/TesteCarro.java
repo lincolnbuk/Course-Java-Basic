@@ -12,6 +12,8 @@ public class TesteCarro {
         System.out.println(van.marca);
         System.out.println(van.modelo);
 
+        van.exibirAutonomia();
+
         Carro fusca = new Carro();
         fusca.marca = "Volkswagen";
         fusca.modelo = "Fusca";
@@ -21,5 +23,7 @@ public class TesteCarro {
 
         System.out.println(fusca.marca);
         System.out.println(fusca.modelo);
+
+        fusca.exibirAutonomia();
     }
 }
