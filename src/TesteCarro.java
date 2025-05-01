@@ -18,6 +18,12 @@ public class TesteCarro {
         System.out.println("A autonomia do carro é: " + autonomia);
         System.out.println("A autonomia do carro é: " + van.obterAutonomia());
 
+        double qtdCombustivel10 = van.calcularCombustivel(10);
+        double qtdCombustivel15 = van.calcularCombustivel(15);
+
+        System.out.println("qtdCombustivel10 = " + qtdCombustivel10);
+        System.out.println("qtdCombustivel15 = " + qtdCombustivel15);
+
 
         Carro fusca = new Carro();
         fusca.marca = "Volkswagen";
@@ -34,5 +40,11 @@ public class TesteCarro {
         autonomia = fusca.obterAutonomia();
         System.out.println("A autonomia do carro é: " + autonomia);
         System.out.println("A autonomia do carro é: " + fusca.obterAutonomia());
+
+        qtdCombustivel10 = van.calcularCombustivel(10);
+        qtdCombustivel15 = van.calcularCombustivel(15);
+
+        System.out.println("qtdCombustivel10 = " + qtdCombustivel10);
+        System.out.println("qtdCombustivel15 = " + qtdCombustivel15);
     }
 }
